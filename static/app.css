@@ -1,0 +1,34 @@
+.board {
+    border: solid 1px black;
+    font-weight: bold;
+}
+
+.board td {
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center
+}
+
+.submit-guess {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 1em;
+    font-size: 20px;
+}
+
+.msg.err {
+    color: white;
+    background-color: rgb(255, 74, 42);
+}
+
+.msg.ok {
+    color: white;
+    background-color: green;
+}
+
+.valid-words {
+    font-size: 20px;
+    font-weight: bold;
+}
